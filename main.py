@@ -56,3 +56,7 @@ print(list(res))
 numbers = [4, 7, 10, 13, 18, 21]
 res = filter(lambda num: True if num % 2 == 0 else False, numbers)
 print(list(res))
+# step 2
+grades = [100, 55, 70, 40, 88, 59]
+res = filter(lambda grade: True if grade >= 60  else False, grades)
+print(list(res))
