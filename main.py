@@ -23,3 +23,7 @@ print(list(res))
 meters = [1.5, 2, 0.75, 3.2]
 res = map(lambda meter: meter * 100, meters)
 print(list(res))
+# step 7
+grades = [95, 40, 67, 88, 52]
+res = map(lambda grade: "pass" if grade >= 60 else "fail", grades)
+print(list(res))
