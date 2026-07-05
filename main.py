@@ -27,3 +27,11 @@ print(list(res))
 grades = [95, 40, 67, 88, 52]
 res = map(lambda grade: "pass" if grade >= 60 else "fail", grades)
 print(list(res))
+# step 8
+products = [
+    {"name": "Bread", "price": 8},
+    {"name": "Milk", "price": 6},
+    {"name": "Eggs", "price": 15}
+]
+res = map(lambda product: f'{product["name"]} costs {product["price"]}' , products)
+print(list(res))
