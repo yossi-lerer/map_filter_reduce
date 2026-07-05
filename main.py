@@ -94,3 +94,12 @@ print(list(res))
 passwords = ["abc", "hello123", "Python2026", "pass", "GoodPass99"]
 res = filter(lambda password: True if len(password) >= 8  else False, passwords)
 print(list(res))
+# step 9
+tasks = [
+    {"title": "Clean room", "done": True, "priority": 2},
+    {"title": "Study Python", "done": False, "priority": 1},
+    {"title": "Play game", "done": False, "priority": 5},
+    {"title": "Send email", "done": True, "priority": 1}
+]
+res = filter(lambda task: True if task["done"] == False and task["priority"] <= 3 else False, tasks)
+print(list(res))
