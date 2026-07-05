@@ -43,3 +43,11 @@ players = [
 ]
 res = map(lambda player: {player["name"], player["score"] + 5} , players)
 print(list(res))
+# step 10
+orders = [
+    {"id": 1, "item": "Book", "amount": 3, "price": 40},
+    {"id": 2, "item": "Pen", "amount": 10, "price": 5},
+    {"id": 3, "item": "Bag", "amount": 1, "price": 120}
+]
+res = map(lambda order: f'order {order["id"]}: {order["item"]} total is {order["amount"] * order["price"]}', orders)
+print(list(res))
