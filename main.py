@@ -72,3 +72,12 @@ print(list(res))
 numbers = [-5, 3, 0, 12, -2, 8]
 res = filter(lambda num: True if num > 0  else False, numbers)
 print(list(res))
+# step 6
+products = [
+    {"name": "Book", "price": 40},
+    {"name": "Bag", "price": 120},
+    {"name": "Pen", "price": 5},
+    {"name": "Shirt", "price": 60}
+]
+res = filter(lambda product: True if product["price"] < 60  else False, products)
+print(list(res))
