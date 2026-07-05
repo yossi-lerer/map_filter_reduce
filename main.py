@@ -64,3 +64,7 @@ print(list(res))
 words = ["dog", "elephant", "cat", "computer", "sun"]
 res = filter(lambda word: True if len(word) <= 3  else False, words)
 print(list(res))
+# step 4
+names = ["Adam", "Dana", "Amit", "Noa", "Alon"]
+res = filter(lambda name: True if name[0] == "A"  else False, names)
+print(list(res))
