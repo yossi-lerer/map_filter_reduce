@@ -35,3 +35,11 @@ products = [
 ]
 res = map(lambda product: f'{product["name"]} costs {product["price"]}' , products)
 print(list(res))
+# step 9
+players = [
+    {"name": "Dana", "score": 70},
+    {"name": "Yoni", "score": 85},
+    {"name": "Rami", "score": 40}
+]
+res = map(lambda player: {player["name"], player["score"] + 5} , players)
+print(list(res))
