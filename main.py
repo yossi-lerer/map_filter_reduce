@@ -15,3 +15,7 @@ print(list(res))
 names = ["dan", "maya", "ron", "lea"]
 res = map(lambda name: name.upper(), names)
 print(list(res))
+# step 5
+users = ["Noa", "Adam", "Lior", "Tamar"]
+res = map(lambda user: f"Hello {user}", users)
+print(list(res))
