@@ -41,7 +41,7 @@ players = [
     {"name": "Yoni", "score": 85},
     {"name": "Rami", "score": 40}
 ]
-res = map(lambda player: {player["name"], player["score"] + 5} , players)
+res = map(lambda player: {"name": player["name"], "score": player["score"] + 5} , players)
 print(list(res))
 # step 10
 orders = [
