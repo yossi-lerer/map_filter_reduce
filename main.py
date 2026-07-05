@@ -68,3 +68,7 @@ print(list(res))
 names = ["Adam", "Dana", "Amit", "Noa", "Alon"]
 res = filter(lambda name: True if name[0] == "A"  else False, names)
 print(list(res))
+# step 5
+numbers = [-5, 3, 0, 12, -2, 8]
+res = filter(lambda num: True if num > 0  else False, numbers)
+print(list(res))
