@@ -81,3 +81,12 @@ products = [
 ]
 res = filter(lambda product: True if product["price"] < 60  else False, products)
 print(list(res))
+# step 7
+users = [
+    {"name": "Dana", "active": True},
+    {"name": "Ron", "active": False},
+    {"name": "Maya", "active": True},
+    {"name": "Gil", "active": False}
+]
+res = filter(lambda user: True if user["active"] == True  else False, users)
+print(list(res))
