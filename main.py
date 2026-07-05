@@ -90,3 +90,7 @@ users = [
 ]
 res = filter(lambda user: True if user["active"] == True  else False, users)
 print(list(res))
+# step 8
+passwords = ["abc", "hello123", "Python2026", "pass", "GoodPass99"]
+res = filter(lambda password: True if len(password) >= 8  else False, passwords)
+print(list(res))
