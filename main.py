@@ -19,3 +19,7 @@ print(list(res))
 users = ["Noa", "Adam", "Lior", "Tamar"]
 res = map(lambda user: f"Hello {user}", users)
 print(list(res))
+# step 6
+meters = [1.5, 2, 0.75, 3.2]
+res = map(lambda meter: meter * 100, meters)
+print(list(res))
