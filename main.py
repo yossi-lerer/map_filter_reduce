@@ -51,3 +51,8 @@ orders = [
 ]
 res = map(lambda order: f'order {order["id"]}: {order["item"]} total is {order["amount"] * order["price"]}', orders)
 print(list(res))
+# part 2
+# step 1
+numbers = [4, 7, 10, 13, 18, 21]
+res = filter(lambda num: True if num % 2 == 0 else False, numbers)
+print(list(res))
