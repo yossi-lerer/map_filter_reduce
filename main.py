@@ -120,3 +120,7 @@ print(list(res))
 # 3. Compare tools
 # I would use map if I wanted to perform an operation on each part of the list and save it as a list.
 # If I wanted to understand something related to the entire list and get one value at the end, I would use reduce.
+# 4. Function parameters
+# The process of reduce is the addition of index 0 and then 1 after it is initially X AND Y. After that, it takes the result and places it in X and takes index 2 and places it in y. It needs x and y to run in an orderly manner.
+# 5. Readability
+# If using list traversal requires more than one condition, it would be easier to do a for loop.
