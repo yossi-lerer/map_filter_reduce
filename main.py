@@ -112,3 +112,8 @@ students = [
 ]
 res = filter(lambda student: True if student["grade"] >= 70 and student["attendance"] >= 80 else False, students)
 print(list(res))
+# Part 4
+# 1. Basic idea
+# reduce works in a way that it goes through everything and knows how to perform a cyclic operation and return the final output.
+# 2. Step-by-step thinking
+# What will happen first is multiplying 2 times three, which is 6, and then 6 times 4, the final result is 24.
