@@ -117,3 +117,6 @@ print(list(res))
 # reduce works in a way that it goes through everything and knows how to perform a cyclic operation and return the final output.
 # 2. Step-by-step thinking
 # What will happen first is multiplying 2 times three, which is 6, and then 6 times 4, the final result is 24.
+# 3. Compare tools
+# I would use map if I wanted to perform an operation on each part of the list and save it as a list.
+# If I wanted to understand something related to the entire list and get one value at the end, I would use reduce.
