@@ -138,3 +138,7 @@ print(res)
 words = ["cat", "elephant", "dog", "computer"]
 res = reduce(lambda word1, word2: word1 if len(word1) >= len(word2) else word2, words)
 print(res)
+# 4. Join words into one sentence
+words = ["Python", "is", "very", "useful"]
+res = reduce(lambda word1, word2: word1 + " " + word2, words)
+print(res)
