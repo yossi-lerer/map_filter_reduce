@@ -1,3 +1,4 @@
+from functools import reduce
 # part 1
 # step 1
 numbers = [3, 7, 10, 15]
@@ -124,3 +125,8 @@ print(list(res))
 # The process of reduce is the addition of index 0 and then 1 after it is initially X AND Y. After that, it takes the result and places it in X and takes index 2 and places it in y. It needs x and y to run in an orderly manner.
 # 5. Readability
 # If using list traversal requires more than one condition, it would be easier to do a for loop.
+# part 5
+# 1. Sum all numbers
+numbers = [5, 10, 20, 15]
+res = reduce(lambda num1, num2: num1 + num2, numbers)
+print(res)
