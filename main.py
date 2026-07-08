@@ -142,3 +142,12 @@ print(res)
 words = ["Python", "is", "very", "useful"]
 res = reduce(lambda word1, word2: word1 + " " + word2, words)
 print(res)
+# 5. Find the student with the highest grade
+students = [
+    {"name": "Dana", "grade": 85},
+    {"name": "Ron", "grade": 92},
+    {"name": "Maya", "grade": 78},
+    {"name": "Gil", "grade": 95}
+]
+res = reduce(lambda student1, student2: student1 if student1["grade"] > student2["grade"] else student2, students)
+print(res)
