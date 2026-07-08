@@ -130,3 +130,7 @@ print(list(res))
 numbers = [5, 10, 20, 15]
 res = reduce(lambda num1, num2: num1 + num2, numbers)
 print(res)
+# 2. Multiply all numbers
+numbers = [2, 3, 4, 5]
+res = reduce(lambda num1, num2: num1 * num2, numbers)
+print(res)
