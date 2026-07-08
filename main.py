@@ -134,3 +134,7 @@ print(res)
 numbers = [2, 3, 4, 5]
 res = reduce(lambda num1, num2: num1 * num2, numbers)
 print(res)
+# 3. Find the longest word
+words = ["cat", "elephant", "dog", "computer"]
+res = reduce(lambda word1, word2: word1 if len(word1) >= len(word2) else word2, words)
+print(res)
